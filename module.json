@@ -1,12 +1,21 @@
 {
-  "name": "stress-module",
+  "id": "stress-module",
   "title": "Stress Module for DnD",
-  "description": "Adds a stress attribute to each character, calculated as 10 + Wisdom modifier.",
-  "version": "0.1",
   "authors": [
-    {"name": "Your Name", "email": "your.email@example.com"}
+    {
+      "name": "RubyQ"
+    }
   ],
-  "minimumCoreVersion": "0.7.9",
-  "compatibleCoreVersion": "0.8.6",
-  "esmodules": ["scripts/stress.js"]
+  "version": "1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "esmodules": [
+    "scripts/stress.js"
+  ],
+  "url": "https://github.com/ARubyQ/stress-module",
+  "manifest": "https://raw.githubusercontent.com/ARubyQ/stress-module/refs/heads/main/module.json",
+  "download": "https://github.com/ARubyQ/stress-module/archive/refs/tags/realease.zip"
 }
